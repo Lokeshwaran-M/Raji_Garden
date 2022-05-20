@@ -37,9 +37,10 @@ nav .current > a {
 }
 /* font colour */
 
-
-h2 {
-  font-size: 36px;
-  
-  
+h1 {
+  font-size: 40px;
 }
+h2 {
+  font-size: 36px ;
+}
+
