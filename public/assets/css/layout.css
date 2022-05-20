@@ -95,8 +95,8 @@ nav {
   background-color: rgba(0, 0, 0, 0.19);
   border: 1px solid rgba(0, 0, 0, 0.1);
   border-radius: 10px;
-  margin-left: 100px;
-  margin-right: 100px;
+  margin-left: 200px;
+  margin-right: 200px;
 }
 .b-head {
   font-size: 40px;
@@ -109,14 +109,14 @@ nav {
 }
 
 /* footer */
-/* social-icons */
+/* social-i-icons */
 
 /* copyrights */
 .copyrights {
   font-size: 14px;
   color: #f1f1f1;
 }
-.res-lok {
+.social-i {
   padding: 15px;
   margin: 10px;
 
@@ -126,7 +126,7 @@ nav {
 
 /* --------------------------tab------------------------------ */
 @media (max-width: 930px) {
-  .res-lok {
+  .social-i {
     padding: 10px;
     margin: 10px;
     color: #0a0909;
@@ -226,11 +226,11 @@ nav {
 
 /* --------------------------mobile------------------------------ */
 @media (max-width: 700px) {
-  .res-lok {
+  .social-i {
     padding: 10px;
     margin: 10px;
-    color: #2ec63d;
-    background-color: #2ec63d;
+    color: #141414;
+    background-color: #141414;
   }
   .head-title {
     font-size: 35px !important;
