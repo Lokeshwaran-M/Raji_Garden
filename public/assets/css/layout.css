@@ -74,19 +74,26 @@ nav {
 .banner {
   margin-top: 32px;
   margin-bottom: 32px;
+  background-color: rgba(0,0,0,0);
 }
 .img-banner {
   border: 0.1px solid #e6e6e6;
   border-radius: 10px;
+  background-color: rgba(0,0,0,0);
 }
 .txtover {
   position: relative;
 }
 .txtover figcaption {
   position: absolute;
-  bottom: 0;
+  
   text-align:center;
   font-size: 25px;
+  color:#f2f2f2;
+  font-weight:100 !important;
+  background-color: rgba(0,0,0,0.19);
+  border: 1px solid rgba(0,0,0,0.10);;
+  border-radius: 10px;
   
 }
 .b-head {
