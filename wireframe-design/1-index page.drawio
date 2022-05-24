@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-05-24T12:10:42.413Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.67 Safari/537.36" etag="PEvsSZ1RvwdGZszHUYD7" version="18.1.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-05-24T12:18:42.043Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.67 Safari/537.36" etag="HkalOKHhughb2ZaGkhvk" version="18.1.2" type="github">
   <diagram id="nFc0npHTAtao-3yocKrN" name="Page-1">
     <mxGraphModel dx="1427" dy="629" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -46,14 +46,8 @@
         <mxCell id="jSddGvB9Upjfdm6qV6eb-16" value="materials" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="720" y="90" width="60" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="5KwlApKkoeZXWSo-Qxgk-1" value="" style="whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
-          <mxGeometry x="30" y="248" width="24" height="24" as="geometry" />
-        </mxCell>
         <mxCell id="5KwlApKkoeZXWSo-Qxgk-2" value="image slider" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="60" y="170" width="700" height="180" as="geometry" />
-        </mxCell>
-        <mxCell id="5KwlApKkoeZXWSo-Qxgk-3" value="" style="whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
-          <mxGeometry x="770" y="248" width="24" height="24" as="geometry" />
+          <mxGeometry x="20" y="140" width="790" height="280" as="geometry" />
         </mxCell>
         <mxCell id="5KwlApKkoeZXWSo-Qxgk-8" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
           <mxGeometry x="750" y="40" width="30" height="30" as="geometry" />
@@ -106,17 +100,17 @@
         <mxCell id="GwUPbeHpnl8-l-uCTYPR-7" value="info&amp;nbsp; area" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="40" y="920" width="200" height="560" as="geometry" />
         </mxCell>
-        <mxCell id="GwUPbeHpnl8-l-uCTYPR-4" value="" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="264" y="920" width="530" height="560" as="geometry" />
-        </mxCell>
-        <mxCell id="GwUPbeHpnl8-l-uCTYPR-6" value="admission poster" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="480" y="1130" width="60" height="30" as="geometry" />
-        </mxCell>
         <mxCell id="_0ivKh7NQWCfHdYWTmic-1" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="75" y="460" width="680" height="160" as="geometry" />
+          <mxGeometry x="74" y="480" width="680" height="160" as="geometry" />
         </mxCell>
         <mxCell id="_0ivKh7NQWCfHdYWTmic-2" value="&lt;h1&gt;Heading&lt;/h1&gt;&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="140" y="490" width="550" height="120" as="geometry" />
+          <mxGeometry x="140" y="510" width="550" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="_0ivKh7NQWCfHdYWTmic-3" value="&lt;span style=&quot;color: rgba(0, 0, 0, 0); font-family: monospace; font-size: 0px; text-align: start;&quot;&gt;%3CmxGraphModel%3E%3Croot%3E%3CmxCell%20id%3D%220%22%2F%3E%3CmxCell%20id%3D%221%22%20parent%3D%220%22%2F%3E%3CmxCell%20id%3D%222%22%20value%3D%22admission%20poster%22%20style%3D%22text%3Bhtml%3D1%3BstrokeColor%3Dnone%3BfillColor%3Dnone%3Balign%3Dcenter%3BverticalAlign%3Dmiddle%3BwhiteSpace%3Dwrap%3Brounded%3D0%3B%22%20vertex%3D%221%22%20parent%3D%221%22%3E%3CmxGeometry%20x%3D%22480%22%20y%3D%221130%22%20width%3D%2260%22%20height%3D%2230%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3C%2Froot%3E%3C%2FmxGraphModel%3E&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="260" y="920" width="520" height="560" as="geometry" />
+        </mxCell>
+        <mxCell id="_0ivKh7NQWCfHdYWTmic-4" value="admission poster" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="480" y="1169" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
