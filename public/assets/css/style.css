@@ -15,33 +15,44 @@ nav .current > a {
 }
 
 /* fonts */
-.f-aeial {
-  font-family: Arial, Helvetica, sans-serif;
-}
-.f-oswald {
-  font-family: "Oswald", sans-serif;
-}
-.f-akshar {
-  font-family: "Akshar", sans-serif;
-}
-.f-roboto {
-  font-family: "Roboto", sans-serif;
-}
-.f-koulen {
-  font-family: "Koulen", cursive;
-}
+/* primary heading */
 .f-anton {
   font-family: "Anton", sans-serif;
 }
+/* secondary heading */
+.f-oswald {
+  font-family: "Oswald", sans-serif;
+}
+/* primary default */
+.f-akshar {
+  font-family: "Akshar", sans-serif;
+}
+/* tine styling */
+.f-koulen {
+  font-family: "Koulen", "cursive";
+}
+/* default */
+.f-roboto {
+  font-family: "Roboto", sans-serif;
+}
 .f-bebas {
-  font-family: "Bebas Neue", cursive;
+  font-family: "Bebas Neue", "cursive";
+}
+.f-arial {
+  font-family: Arial, Helvetica, sans-serif;
 }
 /* font colour */
 
 h1 {
   font-size: 40px;
+  font-family: "Anton", sans-serif;
+
 }
 h2 {
   font-size: 36px ;
+  font-family: "Oswald", sans-serif;
 }
 
+p {
+  font-family: "Akshar","Roboto", sans-serif;
+}
