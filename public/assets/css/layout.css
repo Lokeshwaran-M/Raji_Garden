@@ -3,7 +3,7 @@
 }
 body {
   background: #e6e6e6;
-  font-family: "Akshar","Roboto", sans-serif;
+  font-family: "Akshar", "Roboto", sans-serif;
   line-height: 1.5;
   margin: 0;
 }
@@ -12,9 +12,10 @@ body {
 .head-title {
   font-size: 50px;
   width: 400px;
-  border: 1px solid #1fdf64;
-  border-radius: 40px;
+  color: rgb(5, 4, 4);
 }
+
+/* 
 header {
   display: flex;
   background: #1fdf64;
@@ -22,7 +23,10 @@ header {
   text-align: center;
   font-weight: bolder;
   padding: 5px;
+  position:fixed
 }
+ */
+
 
 .h-box {
   padding: 15px;
@@ -34,11 +38,24 @@ header {
   color: #17ac4d;
   background-color: black;
 }
+.toogle {
+  color: #17ac4d;
+}
 
 /* nav */
 nav {
   background: #1fdf64;
+  width: 100%;
+  height: fit-content;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  
+  
+  
 }
+
 .navbar ul {
   display: flex;
   align-items: center;
@@ -57,7 +74,7 @@ nav {
 }
 .navbar-toggle {
   display: none;
-  font-size: 24px;
+  font-size: 40px;
 }
 .navbar-l:hover {
   background-color: #0a0909;
@@ -75,22 +92,19 @@ nav {
 /* main */
 /* sliding img banner */
 .banner {
-  
+  margin-top:100px;
   margin-bottom: 32px;
-  
 }
-
 
 .txtover {
   position: relative;
-  
 }
-.txtover figcaption {
+.txtover .figtext {
   position: absolute;
   top: 0;
-  bottom :0;
+  bottom: 0;
   text-align: center;
-  
+
   font-size: 25px;
   color: #e4e4e4;
   font-weight: 100 !important;
@@ -98,7 +112,6 @@ nav {
   border: 1px solid rgba(0, 0, 0, 0.1);
   padding-left: 280px;
   padding-right: 280px;
-  
 }
 .b-head {
   font-size: 40px;
@@ -106,48 +119,57 @@ nav {
 }
 
 /* i-card */
-.i-card {
+.h-cards {
   display: flex;
   justify-content: space-between;
-}
-/*  info corner */
-
-.info-corner {
-  display: flex;
-  flex-direction: row;
   
 }
-.info {
-  height: 500px;;
-}
-/* poster-img */
-.poster-img {
-  color:none;
+
+/* 
+.poster {
+
+  
+} 
+ */
+
+
+.i-cards {
+  margin-left: 32px;
+
 }
 
+/*  info corner */
+
+
 /* footer */
+footer {
+  background-color: #000000;
+}
 /* social-i-icons */
 
 /* copyrights */
 .copyrights {
   font-size: 14px;
   color: #f1f1f1;
+  background-color: #000000;
 }
 .social-i {
-  padding: 15px;
-  margin: 10px;
-
-  color: #878787;
-  background-color: #828282;
+  
+  
+  padding: 1px;
+  margin: 0px;
+  background-color: #000000;
 }
+/* =======about========= */
+/* peoples images */
+
 
 /* --------------------------tab------------------------------ */
-@media (max-width: 930px) {
+@media (max-width: 1024px) {
   .social-i {
     padding: 10px;
     margin: 10px;
-    color: #0a0909;
-    background-color: #0a0909;
+    
   }
   .head-title {
     font-size: 40px;
@@ -210,43 +232,50 @@ nav {
 
   /* main */
   /* sliding img banner */
-  
 
   .txtover {
     position: relative;
     margin-left: 0px;
     margin-right: 0px;
   }
-  .txtover figcaption {
+  .txtover .figtext {
     position: absolute;
-    top :0;
+    top: 0;
     bottom: 0;
     text-align: center;
     font-size: 20px;
-    padding-left: 0px;
-    padding-right: 0px;
+    padding-left: 50px;
+    padding-right: 50px;
   }
   .b-head {
     font-size: 30px;
   }
   /* i-card */
-  .i-card {
+  .h-cards {
     flex-direction: column;
-    padding-right: 40px;
-    padding-left: 40px;
+    justify-content: space-between;
+  }
+/*   
+  .poster {
     
   }
+   */
+  .i-cards {
+    margin-left: 0px;
+    margin-top: 32px;
+  }
+
   /*  info corner */
   .info-corner {
     flex-direction: column;
-    
   }
-  .mt-4 {
+  .m-4 {
     margin-top: 10px !important;
   }
-  .mr-4 , .ml-4 {
-    margin-left : 0px !important;
-    margin-right : 0px !important;
+  .mr-4,
+  .ml-4 {
+    margin-left: 0px !important;
+    margin-right: 0px !important;
   }
 }
 
@@ -255,8 +284,7 @@ nav {
   .social-i {
     padding: 10px;
     margin: 10px;
-    color: #141414;
-    background-color: #141414;
+    
   }
   .head-title {
     font-size: 35px !important;
@@ -319,11 +347,11 @@ nav {
 
   /* main */
   /* sliding img banner */
-  
+
   .txtover {
     position: none;
   }
-  .txtover figcaption {
+  .txtover .figtext {
     position: none;
     bottom: none;
     text-align: center;
@@ -344,7 +372,6 @@ nav {
   /*  info corner */
   .info-corner {
     flex-direction: column;
-    
   }
   .p-5 {
     padding: 10px !important;
@@ -352,9 +379,10 @@ nav {
   .mt-4 {
     margin-top: 10px !important;
   }
-  .mr-4 , .ml-4 {
-    margin-left : 0px !important;
-    margin-right : 0px !important;
+  .mr-4,
+  .ml-4 {
+    margin-left: 0px !important;
+    margin-right: 0px !important;
   }
   .p-8 {
     padding: 20px !important;
