@@ -27,7 +27,6 @@ header {
 }
  */
 
-
 .h-box {
   padding: 15px;
   margin: 15px;
@@ -44,16 +43,13 @@ header {
 
 /* nav */
 nav {
-  background: #1fdf64;
+  background: #64dd17;
   width: 100%;
   height: fit-content;
   position: fixed;
   z-index: 1;
   top: 0;
   left: 0;
-  
-  
-  
 }
 
 .navbar ul {
@@ -92,7 +88,7 @@ nav {
 /* main */
 /* sliding img banner */
 .banner {
-  margin-top:100px;
+  margin-top: 100px;
   margin-bottom: 32px;
 }
 
@@ -122,7 +118,6 @@ nav {
 .h-cards {
   display: flex;
   justify-content: space-between;
-  
 }
 
 /* 
@@ -132,14 +127,11 @@ nav {
 } 
  */
 
-
 .i-cards {
   margin-left: 32px;
-
 }
 
 /*  info corner */
-
 
 /* footer */
 footer {
@@ -154,22 +146,21 @@ footer {
   background-color: #000000;
 }
 .social-i {
-  
-  
   padding: 1px;
   margin: 0px;
   background-color: #000000;
 }
 /* =======about========= */
 /* peoples images */
-
+.resp-flex {
+  display: flex;
+}
 
 /* --------------------------tab------------------------------ */
 @media (max-width: 1024px) {
   .social-i {
     padding: 10px;
     margin: 10px;
-    
   }
   .head-title {
     font-size: 40px;
@@ -255,7 +246,7 @@ footer {
     flex-direction: column;
     justify-content: space-between;
   }
-/*   
+  /*   
   .poster {
     
   }
@@ -284,7 +275,6 @@ footer {
   .social-i {
     padding: 10px;
     margin: 10px;
-    
   }
   .head-title {
     font-size: 35px !important;
@@ -392,5 +382,10 @@ footer {
   }
   .pr-8 {
     padding-right: 20px !important;
+  }
+  /* =======about========= */
+  /* peoples images */
+  .resp-flex {
+    flex-direction: column;
   }
 }
