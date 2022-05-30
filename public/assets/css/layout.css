@@ -43,7 +43,7 @@ header {
 
 /* nav */
 nav {
-  background: #64dd17;
+  background: #1fdf64;
   width: 100%;
   height: fit-content;
   position: fixed;
@@ -120,12 +120,11 @@ nav {
   justify-content: space-between;
 }
 
-/* 
+/
 .poster {
-
-  
+  height: 500px;
 } 
- */
+ 
 
 .i-cards {
   margin-left: 32px;
